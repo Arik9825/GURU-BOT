@@ -15,7 +15,7 @@ export async function all(m) {
       this.sendMessage(
         m.chat,
         {
-          text: `Hello @${m.sender.split('@')[0]}\nI am currently busy and will reply when I am free.\nFor urgent matters, please DM the owner.`.trim()
+          text: `Hello @${m.sender.split('@')[0]}\nI am currently busy and will reply when I am free.\nFor urgent matters, please wait until I came online.`.trim()
         },
         { quoted: m }
       );
